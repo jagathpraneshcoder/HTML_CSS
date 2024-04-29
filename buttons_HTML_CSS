@@ -1,0 +1,48 @@
+<!--Creating a youtube subscribe button, Join button and Tweet Button -->
+
+<html>
+
+<style>
+    .subs{
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height:36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .join{
+        background-color: rgb(255, 255, 255);
+        color: rgba(41, 118, 211);
+        border: 3px;
+        border-style: solid;
+        height:36px;
+        width: 62px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .tweet{
+        background-color: rgb(2, 137, 255);
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        height: 36px;
+        width: 80px;
+        border: none;
+        border-radius: 18px;
+        cursor: pointer;
+    }
+
+</style>
+<button class="subs">Subscribe</button>
+<br>
+<br>
+<button class="join">Join</button>
+<br>
+<br>
+<button class="tweet">Tweet</button>
+
+</html>
